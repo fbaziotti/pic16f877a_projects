@@ -1,5 +1,5 @@
-# Temperature Sensor\
-// Lcd pinout settings
+# Temperature Sensor
+// Lcd pinout settings  
 sbit LCD_RS at RB4_bit;
 sbit LCD_EN at RB5_bit;
 sbit LCD_D7 at RB3_bit;
