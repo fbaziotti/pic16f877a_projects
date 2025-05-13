@@ -14,14 +14,14 @@ void main() {
   
   while(1){
 
-     x=adc_read(0);\
-     duty=(x/4);\
-     pwm1_set_duty(duty);\
-     portb.f0=1;\
-     portb.f1=0;\
-     delay_ms(5000);\
-     portb.f0=0;\
-     portb.f1=1;\
-     delay_ms(5000);\
-     }\
+     x=adc_read(0);
+     duty=(x/4);
+     pwm1_set_duty(duty);
+     portb.f0=1;
+     portb.f1=0;
+     delay_ms(5000);
+     portb.f0=0;
+     portb.f1=1;
+     delay_ms(5000);
+     }
    }
