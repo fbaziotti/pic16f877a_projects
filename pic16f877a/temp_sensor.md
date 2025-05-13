@@ -37,4 +37,4 @@ void main() {\
     if(value>=37){\
     porta.f1=0;\
     }\
-}\
+}
