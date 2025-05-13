@@ -2,7 +2,7 @@ ADC_init();\
 int duty;\
 int x;
 
-void main() {\
+void main() {
 
   PWM1_init(1000);//frequency\
   pwm1_start();
@@ -10,9 +10,9 @@ void main() {\
   trisb.f0=0;\
   trisb.f1=0;\
   portb.f0=0;\
-  portb.f1=0;\
+  portb.f1=0;
   
-  while(1){\
+  while(1){
 
      x=adc_read(0);\
      duty=(x/4);\
