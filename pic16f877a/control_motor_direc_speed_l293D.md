@@ -1,11 +1,11 @@
 ADC_init();\
 int duty;\
-int x;\
+int x;
 
 void main() {\
 
   PWM1_init(1000);//frequency\
-  pwm1_start();\
+  pwm1_start();
   
   trisb.f0=0;\
   trisb.f1=0;\
